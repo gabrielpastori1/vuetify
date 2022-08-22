@@ -7,7 +7,7 @@
           hide-details
           class="shrink mr-2 mt-0"
         ></v-checkbox>
-        <v-text-field label="Include files"></v-text-field>
+        <v-text-field label="Include files" :disabled="!includeFiles"></v-text-field>
       </v-row>
       <v-row align="center">
         <v-checkbox
